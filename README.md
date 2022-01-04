@@ -44,4 +44,4 @@ The actual dataset which contains 1.7 millions of reviews are too large to be co
 
 If you wish to obtain the full dataset, please email cdong27@bu.edu for the access.
 
-After you get the dataset, please keep in mid the dataset is really, really large, and it takes me 10 hours to finish one feature extraction step. So, be patient and efficient. 
+After you get the dataset, please keep in mind the dataset is really, really large, and it takes me 10 hours to finish one feature extraction step. So, be patient and efficient. 
