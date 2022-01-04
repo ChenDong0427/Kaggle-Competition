@@ -40,7 +40,7 @@ You can modify the codes that I provide. I use the gradient boosting decision tr
 You can also use the confusion matrix to adjust your model accordingly.
 
 # Reminder
-The actual dataset which contains 1.7 millions of reviews are too large to be commited to Github (1.71G). So, I provide the test, sample, and the submission file which can provide you a view of the data. 
+The actual dataset which contains 1.7 millions of reviews are too large to be commited to Github (1.71GB). So, I provide the test, sample, and the submission file which can provide you a view of the data. 
 
 If you wish to obtain the full dataset, please email cdong27@bu.edu for the access.
 
