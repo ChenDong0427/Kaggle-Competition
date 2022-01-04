@@ -40,4 +40,8 @@ You can modify the codes that I provide. I use the gradient boosting decision tr
 You can also use the confusion matrix to adjust your model accordingly.
 
 # Reminder
-The dataset is really, really large, and it takes me 10 hours to finish one feature extraction step. So, be patient and efficient. 
+The actual dataset which contains 1.7 millions of reviews are too large to be commited to Github (1.71G). So, I provide the test, sample, and the submission file which can provide you a view of the data. 
+
+If you wish to obtain the full dataset, please email cdong27@bu.edu for the access.
+
+After you get the dataset, please keep in mid the dataset is really, really large, and it takes me 10 hours to finish one feature extraction step. So, be patient and efficient. 
