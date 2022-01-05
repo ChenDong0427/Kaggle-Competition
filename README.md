@@ -2,6 +2,7 @@
 This is a Kaggle Competition completed by Chen Dong from Boston University
 
 # Datasets
+Since GitHub is very restrictive about uploading large files, I uploaded my data into Google drive.
 
 [click here to get access to the full dataset](https://drive.google.com/drive/u/1/folders/18ITauUdmDKj-Wx5jRdwiZ_2v0tLVYAv3) or copy the link below
 
