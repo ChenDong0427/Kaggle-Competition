@@ -2,6 +2,9 @@
 This is a Kaggle Competition completed by Chen Dong from Boston University
 
 # Datasets
+
+[click here to get access to the full dataset](https://drive.google.com/drive/u/1/folders/18ITauUdmDKj-Wx5jRdwiZ_2v0tLVYAv3)
+
 File descriptions:
 
 train.csv - 1,697,533 unique reviews from Amazon Movie Reviews, with their associated star ratings and metadata. It is not necessary to use all reviews, or metadata for training. Some reviews will be missing a value in the 'Score' column. That is because, these are the scores you want to predict.
@@ -10,6 +13,12 @@ test.csv - Contains a table with 300,000 unique reviews. The format of the table
 
 sample.csv - a sample submission file. The 'Id' field is populated with values from test.csv. Kaggle will only evaluate submission files in this exact same format.
 Data fields:
+
+X_test.csv - The partial test dataset after running the feature extraction
+
+X_train.csv - The full dataset after running the feature extraction
+
+submission.csv - The actual submitted file for predicting the missing value
 
 ProductId - unique identifier for the product
 
@@ -40,8 +49,5 @@ You can modify the codes that I provide. I use the gradient boosting decision tr
 You can also use the confusion matrix to adjust your model accordingly.
 
 # Reminder
-The actual dataset which contains 1.7 millions of reviews are too large to be commited to Github (1.71GB). So, I provide the test, sample, and the submission file which can provide you a view of the data. 
-
-If you wish to obtain the full dataset, please email cdong27@bu.edu for the access.
 
 After you get the dataset, please keep in mind the dataset is really, really large, and it takes me 10 hours to finish one feature extraction step. So, be patient and efficient. 
