@@ -14,31 +14,30 @@ train.csv - 1,697,533 unique reviews from Amazon Movie Reviews, with their assoc
 test.csv - Contains a table with 300,000 unique reviews. The format of the table has two columns; i) 'Id': contains an id that corresponds to a review in train.csv for which you predict a score ii) 'Score': the values for this column are missing since it will include the score predictions. You are required to predict the star ratings of these Id using the metadata in train.csv.
 
 sample.csv - a sample submission file. The 'Id' field is populated with values from test.csv. Kaggle will only evaluate submission files in this exact same format.
-Data fields:
 
-X_test.csv - The partial test dataset after running the feature extraction
+X_test.csv - The partial test dataset after running the feature extraction.
 
-X_train.csv - The full dataset after running the feature extraction
+X_train.csv - The full dataset after running the feature extraction.
 
-submission.csv - The actual submitted file for predicting the missing value
+submission.csv - The actual submitted file for predicting the missing value.
 
-ProductId - unique identifier for the product
+ProductId - unique identifier for the product.
 
-UserId - unique identifier for the user
+UserId - unique identifier for the user.
 
-HelpfulnessNumerator - number of users who found the review helpful
+HelpfulnessNumerator - number of users who found the review helpful.
 
-HelpfulnessDenominator - number of users who indicated whether they found the review helpful
+HelpfulnessDenominator - number of users who indicated whether they found the review helpful.
 
-Score - rating between 1 and 5
+Score - rating between 1 and 5.
 
-Time - timestamp for the review
+Time - timestamp for the review.
 
-Summary - brief summary of the review
+Summary - brief summary of the review.
 
-Text - text of the review
+Text - text of the review.
 
-Id - a unique identifier associated with a review
+Id - a unique identifier associated with a review.
 
 # What we want to do?
 The purpose is predict the missing values of a given dataset.
@@ -51,5 +50,4 @@ You can modify the codes that I provide. I use the gradient boosting decision tr
 You can also use the confusion matrix to adjust your model accordingly.
 
 # Reminder
-
 After you get the dataset, please keep in mind the dataset is really, really large, and it takes me 10 hours to finish one feature extraction step. So, be patient and efficient. 
